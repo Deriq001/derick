@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Signup - Great  Foundtion College</title>
+</head>
+<body background="Asset/Image/2.">
+    <header>
+<h1>Great Foundation College</h1>
+<hr>
+<nav align="center">
+<a href="#"><button>Home</button></a>
+<a href="#"><button>About</button></a>
+<a href="#"><button>contact</button></a>
+<a href="#"><button>pricing</button></a>
+<a href="#"><button>Gallery</button></a>
+<a href="#"><button>login</button></a>
+<a href="#"><button>Register</button></a>
+</nav>
+<hr/>
+    </header>
+<main>
+<center>
+<font size="6"><h3>Student Enrollment Form</h3></font>
+<hr width="400px"/>
+<hr width="350px"/>
+<hr width="300px"
+</center>
+<br/>
+<fieldset>
+<form action="index.html" method="post" enctype="multipart/form-data" align="center">
+<div>
+<label for="fullname">Enter Your Full name(<font color="orange"><em>only 2 to 10 alphabets</em></font>)<font color="red">*</font></font></label>
+<input type="text" pattern="[A-Z|a-z]*" id="fullname" placeholder="Full Name"/>
+</div>
+<div>
+<br/>
+<label for="age">Enter your Age(<font color="orange"><em>min of 18</em></font>)<font color="red">*</font></label>
+<input type="number" id="age" min="18" max="30"
+value="18"/>
+</div>
+<br/>
+<div>
+<label for="dob">Specify YourDate Of Birth</label>
+<input type="date" id="dob"/>
+</div>
+<hr width="100px">
+<div>
+<br/>
+<div>
+<label for="email">Enter Your Email</label>
+<input type="email" id="email"/>
+</div>
+<br/>
+<div>
+<label for="pass">Choose a Secured Password</label>
+<input type="password" id="pass" minlength="8" placeholder="password">
+</div>
+<br/>
+<div>
+<br/>
+<div>
+<label for="color">Chose color of the day</label>
+<br/>
+<input type="color" id="color"/>
+</div>
+<br/>
+<span>Specify your Gender</span><br/>
+<input type="radio" name="sex" id="male"/><label for="male">Male</label>
+<input type="radio" name="sex" id="female"/><label for="female">Female</label>
+</div>
+<br/>
+</div>
+<div>
+<span>Specify Your Working Days</span><br/>
+<input type="checkbox" id="monday"/><label for="monday">Monday</label>
+
+<input type="checkbox" id="tuesday"/><label for="tuesday">Tuesday</label>
+
+<input type="checkbox" id="wednesday"/><label for="wednesday">Wednesday</label>
+<input type="checkbox" id="thursday"/><label for="thursday">Thursday</label>
+<input type="checkbox" id="friday"/><label for="friday">Friday</label>
+</div>
+<br/>
+<div>
+<label for="ride">Select A Company Ride</label>
+<select id="ride">
+<option disabled selected>choose your prefarred ride</option>
+<option value="1">Avalon 2003</option>
+<option value="2">Highlander 2005</option>
+<option value="3">Accura 300</option>
+<option value="4">Lexus 350</option>
+<option value="5">Benz 2003</option>
+</select>
+</div>
+<br/>
+<div>
+<label for="school">choose school</label>
+<input list="learn" id="school"/>
+<datalist id="learn">
+<option value="Madonna">
+<option value="Imo city">
+<option value="FGC">
+<option value="GSSO">
+<option value="GTC">
+<option value="OGSS">
+</datalist>
+</div>
+<br/>
+<div>
+<label for="img">Choose a profile picture</label>
+<input for="file" id="img" accept="image/*"/>
+</div>
+<label for="vid">Upload a video</label>
+<input for="file" id="vid" accept="video/*"/>
+</div>
+<label for="aud">Upload voice notes</label>
+<input for="file" id="aud" accept="image/*"/>
+
+</div>
+
+<div>
+<input type="submit" value="sign up">
+<button type="submit">Register</button> 
+</div>
+</form>
+</fieldset>
+</main>
+</body>
+</html>
